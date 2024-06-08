@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* :root{
+  --body-background:white;
+  --title:black;
+  --primary:blue;
+} */
+
+.btn{
+  background-color:var(--bgColor);
+  color: var(--txtColor);
+}
+.btn:hover{
+  color: rgb(104, 109, 118);
+}
+
+.button{
+  background-color: rgb(253, 255, 226);
+   color: var(--bgColor);
+  }
+.button:hover{
+      color: rgb(104, 109, 118);
+    }
+
+.banner{
+  background-image: url('./Components/Images/Background.jpg');
+  width: 110%;
+  height: 110%;
+}
+.carousel-item img{
+  width: 100%;
+  height: 80vh;
+}
+.About img{
+  width: 100%;
+  height: 40vh;
+}
+.About img:hover{
+transform: scale(1.1);
+}
+.Home img{
+  width: 100%;
+  height: 40vh;
+}
+.Home img:hover{
+  transform: scale(1.1);
+}
+.Blog img{
+  width: 100%;
+  padding-left: 45px;
+}
+/* .Blog .post .post-img{
+  overflow: hidden;
+  cursor: pointer;
+}
+.Blog .post:hover img{
+  transform: scale(1.3) rotate(-10deg);
+  opacity: 0.8;
+} */
+
+.contact{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  padding-top: 70px;
+}
+.contact input{
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid;
+}
+#contact-btn{
+  width: 200px;
+  height: 36px; 
+  background: var(--bgColor);
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#contact-btn:hover{
+  color: rgb(104, 109, 118);
+}
+.card-item img:hover{
+  transform: scale(1.3);
+  opacity: 0.8;
+  overflow: hidden;
+  cursor: pointer;
+}
+.Contact img{
+  width: 100%;
+  height: 40vh;
+}
+.Contact img:hover{
+  transform: scale(1.1);
+}
+.Backgoundimg{
+  width: 100%;
+  height: 90vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Components/Images/bgimgage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+.star i{
+  color: #b2744c;
+}
+
+
+/* theme changer button
+.light{
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  background: none;
+  border: 1px solid var(--txtColor);
+  color: var(--txtColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+.light:hover{
+  background-color: var(--txtColor);
+  color: var(--bgColor);
+} */
+
+:root {
+  --bgColor: black;
+  --sBgColor: rgba(0, 0, 0, 0.8);
+  --txtColor: white;
+  --navColor: rgb(77, 77, 77);
+  --newColor: rgb(100, 31, 211);
+}
+.footer{
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  height: 900%;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+  .footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  display: block;
+  transition: all 0.3s ease;
+  list-style: none;
+}
+.footer-col ul li a:hover{
+  color: #ffff;
+  padding-left: 8px;
+}
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.bg-image{
+width: 100%;
+height:100vh;
+color: black;
+/* background-image: url('../src/Images/bg2.jpg'); */
+}
+ 
+ .background{
+  background-image:url("./Components/Images/girl.jpeg") ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ }
+.product .card{
+  border-radius: 2px solid var(--bgColor);
+  border: 2px;
+}
+.navbar-nav .nav-item .nav-link{
+  color: var(--txtColor);
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: var(--navColor);
+  color: var(--bgColor);
+  border-radius: 5px;
+}
+.dropdown .dropdown-toggle{
+  background-color: var(--bgColor);
+}
+.dropdown .dropdown-toggle:hover {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
